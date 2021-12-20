@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>SisGeSol SSA -- Inicio de sesión</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/svg" href="">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/main.css">
+    </head>
+    <body class="login-page">
+
+    
+
+        <div class="login-page--cont">
+            <div class="formulario">
+                <form action="/home" method="POST" class="login">
+                    <div>
+                        <img src="/logo.png" alt="logo">
+                    </div>
+                    <div>
+                        <h4><strong>Inicio de sesión SisGeSol</strong></h4>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-1-12">
+                            <input autofocus autocomplete="off" name="email" type="text" class="form-control" value="@grupossa.com.ve">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-1-12">
+                            <input autocomplete="off" name="password" type="password" class="form-control" placeholder="Ingrese su contraseña">
+                        </div>
+                    </div> 
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Siguiente</button>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary"><a href="/register" class="grbutt">Registrar clave</a></button>
+                    </div>
+                </form>
+            </div>
+            <div class="footer-formulario">
+                <h6>Bienvenido a Sisgesol SSA.</h6>
+                <h6>Por favor ingrese con sus credenciales.</h6>
+            </div>
+        </div>
+
+        
+    </body>
+</html>
