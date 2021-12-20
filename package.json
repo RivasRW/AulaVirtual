@@ -2,15 +2,19 @@
   "name": "aulanet",
   "version": "1.0.0",
   "description": "proyecto de grado",
-  "main": "index.js",
+  "main": "aulanet_App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "nodemon aulanet_App.js"
   },
   "keywords": [],
   "author": "Willber Rivas Rodriguez ",
   "license": "ISC",
   "dependencies": {
+    "connect-flash": "^0.1.1",
+    "connect-pg-simple": "^7.0.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.2",
+    "express-session": "^1.17.2",
     "pg": "^8.7.1"
   },
   "devDependencies": {
