@@ -4,7 +4,8 @@
   "description": "proyecto de grado",
   "main": "aulanet_App.js",
   "scripts": {
-    "watch": "nodemon aulanet_App.js"
+    "watch": "nodemon aulanet_App.js",
+    "compile:sass": "node-sass public/sass/main.scss public/css/main.css -w"
   },
   "keywords": [],
   "author": "Willber Rivas Rodriguez ",
@@ -17,6 +18,7 @@
     "express": "^4.17.2",
     "nodemon": "^2.0.15",
     "express-session": "^1.17.2",
+    "node-sass": "^7.0.0",
     "pg": "^8.7.1"
   }
 }

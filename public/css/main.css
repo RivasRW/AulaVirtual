@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/wallpapersden.com_abstract-joining-lines_5120x2880.jpg"); }
+
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10vh 0 0 0; }
+  .login--form {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.15rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    background-color: #e3e3ee;
+    min-width: 16rem;
+    width: 30vw;
+    height: 70vh; }
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 92vw;
+  position: absolute;
+  z-index: 500; }

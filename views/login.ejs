@@ -1,53 +1,32 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>SisGeSol SSA -- Inicio de sesión</title>
+        <title>Aulanet -- Inicio de sesión</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/svg" href="">
+        <link rel="icon" type="image/png" href="/favicon.png">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/main.css">
     </head>
-    <body class="login-page">
+    <body>
 
-    
-
-        <div class="login-page--cont">
-            <div class="formulario">
-                <form action="/home" method="POST" class="login">
-                    <div>
-                        <img src="/logo.png" alt="logo">
-                    </div>
-                    <div>
-                        <h4><strong>Inicio de sesión SisGeSol</strong></h4>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-1-12">
-                            <input autofocus autocomplete="off" name="email" type="text" class="form-control" value="@grupossa.com.ve">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-1-12">
-                            <input autocomplete="off" name="password" type="password" class="form-control" placeholder="Ingrese su contraseña">
-                        </div>
-                    </div> 
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary">Siguiente</button>
-                    </div>
-                    <div class="form-group">
-                        <button class="btn btn-primary"><a href="/register" class="grbutt">Registrar clave</a></button>
-                    </div>
-                </form>
-            </div>
-            <div class="footer-formulario">
-                <h6>Bienvenido a Sisgesol SSA.</h6>
-                <h6>Por favor ingrese con sus credenciales.</h6>
-            </div>
+        <div class="logo col-lg">
+            <img src="/imagotipo.png" alt="logo de aulanet" class="logo--img d-none d-lg-block">
         </div>
 
+        <div class="login">
+            <form class="login--form" action="/home">
+
+            </form>
+        </div>
         
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -10,4 +10,4 @@ router.post('/home', userController.home)
 
 
 
-module.exports = router
+module.exports = router;
