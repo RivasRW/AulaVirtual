@@ -1,0 +1,20 @@
+@mixin bg-images-properties {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin box-shape-shadow {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.15rem;
+    box-shadow: 10px 10px 10px $shadow-color;
+}

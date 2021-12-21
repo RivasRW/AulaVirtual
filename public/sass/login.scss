@@ -1,0 +1,27 @@
+body {
+    @include bg-images-properties;
+    background-image: url('/wallpapersden.com_abstract-joining-lines_5120x2880.jpg');
+}
+
+.login {
+    @include flex-row;
+    justify-content: space-around;
+    margin: 10vh 0 0 0;
+
+    &--form {
+        @include box-shape-shadow;
+        background-color: $form-background-color;
+        min-width: 16rem;
+        width: 30vw;
+        height: 70vh;
+    }
+    
+}
+
+.logo {
+    @include flex-row;
+    justify-content: end;
+    width: 92vw;
+    position: absolute;
+    z-index: 500;
+}
