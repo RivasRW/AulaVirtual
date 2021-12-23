@@ -1,44 +1,45 @@
 import { useEffect } from "react";
+import { Link } from "wouter";
 
+export default function Layout({ children }: any) {
+  useEffect(() => {
+    const contenedor: any = document.querySelector("#contenedor");
+    const botonMenu: any = document.querySelector("#boton-menu");
 
-export default function Layout({children}:any) {
-    
-    useEffect(() => {
-        const contenedor:any = document.querySelector("#contenedor");
-        const botonMenu:any = document.querySelector("#boton-menu");
-    
-        botonMenu?.addEventListener("click", () => {
-          contenedor?.classList.toggle("active");
-        });
-    
-        const comprobarAncho = () => {
-          if (window.innerWidth <= 768) {
-            contenedor.classList.remove("active");
-          } else {
-            contenedor.classList.add("active");
-          }
-        };
-    
-        comprobarAncho();
-    
-        window.addEventListener("resize", () => {
-          comprobarAncho();
-        });
-      }, []);
+    botonMenu?.addEventListener("click", () => {
+      contenedor?.classList.toggle("active");
+    });
 
-    return (
-        <div className="contenedor active" id="contenedor">
+    const comprobarAncho = () => {
+      if (window.innerWidth <= 768) {
+        contenedor.classList.remove("active");
+      } else {
+        contenedor.classList.add("active");
+      }
+    };
+
+    comprobarAncho();
+
+    window.addEventListener("resize", () => {
+      comprobarAncho();
+    });
+  }, []);
+
+  return (
+    <div className="contenedor active" id="contenedor">
       <header className="header">
         <div className="contenedor-logo">
           <button id="boton-menu" className="boton-menu">
             <i className="fas fa-bars" />
           </button>
-          <a href="#" className="logo">
-            <i className="fas fa-play" /> <span>JcTube</span>
-          </a>
+          <Link href="/">
+            <a className="logo">
+              <i className="fas fa-play" /> <span>JcTube</span>
+            </a>
+          </Link>
         </div>
         <div className="barra-busqueda">
-          <input type="text" placeholder="Buscar" />
+          <input type="text" placeholder="Buscar materias" />
           <button type="submit">
             <i className="fas fa-search" />
           </button>
@@ -58,27 +59,39 @@ export default function Layout({children}:any) {
           </a>
         </div>
       </header>
+      
       <nav className="menu-lateral">
-        <a href="#" className="active">
-          <i className="fas fa-home" /> Página Principal
-        </a>
-        <a href="#">
-          <i className="fas fa-fire" /> Record Academico
-        </a>
-        <a href="#">
-          <i className="fas fa-star" /> Horario
-        </a>
+        <Link href="/">
+          <a className="active">
+            <i className="fas fa-home" /> Página Principal
+          </a>
+        </Link>
+
+        <Link href="/record">
+          <a>
+            <i className="fas fa-fire" /> Record Academico
+          </a>
+        </Link>
+
+        <Link href="/horario">
+          <a>
+            <i className="fas fa-star" /> Horario
+          </a>
+        </Link>
         <hr />
-        <a href="#">
-          <i className="fas fa-folder" /> Meterias Pendientes
-        </a>
-        <a href="#">
-          <i className="fas fa-folder" /> Acerca de la Universidad
-        </a>
+        <Link href="/pendientes">
+          <a>
+            <i className="fas fa-folder" /> Meterias Pendientes
+          </a>
+        </Link>
+        <Link href="/nosotros">
+          <a>
+            <i className="fas fa-folder" /> Acerca de la Universidad
+          </a>
+        </Link>
       </nav>
 
-        {children}
-            
-        </div>
-    )
+      {children}
+    </div>
+  );
 }
