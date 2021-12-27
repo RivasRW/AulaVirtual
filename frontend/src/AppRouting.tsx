@@ -5,6 +5,7 @@ import AcademyRecord from "./pages/academy-record/AcademyRecord";
 import Home from "./pages/home/Home";
 import Horary from "./pages/horary/Horary";
 import PageNotFound from "./pages/page-not-found/PageNotFound";
+import SingleClass from "./pages/single-class/SingleClass";
 import Slopes from "./pages/slopes/Slopes";
 
 const AppRouting = () => {
@@ -17,6 +18,7 @@ const AppRouting = () => {
           <Route path="/record" component={AcademyRecord} />
           <Route path="/horario" component={Horary} />
           <Route path="/pendientes" component={Slopes} />
+          <Route path="/materia/:id" component={SingleClass} />
           <Route component={PageNotFound} />
         </Switch>
       </Layout>

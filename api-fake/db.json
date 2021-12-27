@@ -1,8 +1,88 @@
 {
-    "materias": [
-        {"id": 1, "title": "Inglés I", "teacherName": "Johan Castillo", "teacherImg": "/img/avatar.jpg", "bannerImg": ""},
-        {"id": 2, "title": "Matemáticas I", "teacherName": "Johan Castillo", "teacherImg": "/img/avatar.jpg", "bannerImg": ""},
-        {"id": 1, "title": "Física I", "teacherName": "Johan Castillo", "teacherImg": "/img/avatar.jpg", "bannerImg": ""},
-        {"id": 1, "title": "Metodología de la investigación", "teacherName": "Johan Castillo", "teacherImg": "/img/avatar.jpg", "bannerImg": ""}
-    ]
+  "materias": [
+    {
+      "id": 1,
+      "title": "Inglés I",
+      "teacherName": "Johan Castillo",
+      "teacherImg": "/img/avatar.jpg",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    },
+    {
+      "id": 2,
+      "title": "Matemáticas I",
+      "teacherName": "Johan Castillo",
+      "teacherImg": "/img/avatar.jpg",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    },
+    {
+      "id": 3,
+      "title": "Física I",
+      "teacherName": "Johan Castillo",
+      "teacherImg": "/img/avatar.jpg",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    },
+    {
+      "id": 4,
+      "title": "Metodología de la investigación",
+      "teacherName": "Johan Castillo",
+      "teacherImg": "/img/avatar.jpg",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    },
+    {
+      "id": 5,
+      "title": "Metodología de la investigación",
+      "teacherName": "Johan Castillo",
+      "teacherImg": "/img/avatar.jpg",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    },
+    {
+      "id": 6,
+      "title": "Metodología de la investigación",
+      "teacherName": "Johan Castillo",
+      "teacherImg": "/img/avatar.jpg",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    },
+    {
+      "id": 7,
+      "title": "Metodología de la investigación",
+      "teacherName": "Johan Castillo",
+      "teacherImg": "/img/avatar.jpg",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    },
+    {
+      "id": 8,
+      "title": "Metodología de la investigación",
+      "teacherName": "Johan Castillo",
+      "teacherImg": "/img/avatar.jpg",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    },
+    {
+      "id": 9,
+      "title": "Metodología de la investigación",
+      "teacherName": "Johan Castillo",
+      "teacherImg": "/img/avatar.jpg",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    },
+    {
+      "id": 10,
+      "title": "Metodología de la investigación",
+      "teacherName": "Johan Castillo",
+      "teacherImg": "/img/avatar.jpg",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    },
+    {
+      "id": 11,
+      "title": "Metodología de la investigación",
+      "teacherName": "Johan Castillo",
+      "teacherImg": "/img/avatar.jpg",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    },
+    {
+      "id": 12,
+      "title": "Inglés III",
+      "teacherName": "hgdhggkjfdfgdjhgjhf",
+      "teacherImg": "/img/avatar.jpg",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    }
+  ]
 }
