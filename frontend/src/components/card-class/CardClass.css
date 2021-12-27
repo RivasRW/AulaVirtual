@@ -1,0 +1,27 @@
+.card-class .content{
+    padding: 10px !important;
+    display: flex;
+}
+
+.card-class .content img{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.banner-class{
+    position: relative;
+}
+
+.class-title{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
