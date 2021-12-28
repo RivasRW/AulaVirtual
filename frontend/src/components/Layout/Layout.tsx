@@ -34,7 +34,7 @@ export default function Layout({ children }: any) {
           </button>
           <Link href="/">
             <a className="logo">
-              <i className="fas fa-play" /> <span>JcTube</span>
+              <img src="/img/logo.png" alt="" width="156px" />
             </a>
           </Link>
         </div>
@@ -45,12 +45,8 @@ export default function Layout({ children }: any) {
           </button>
         </div>
         <div className="botones-header">
-          <button>
-            <i className="fas fa-upload" />
-          </button>
-          <button>
-            <i className="fas fa-th" />
-          </button>
+         
+         
           <button>
             <i className="fas fa-bell" />
           </button>
