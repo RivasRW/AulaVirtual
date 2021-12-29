@@ -11,6 +11,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
   background-image: url("/wallpapersden.com_abstract-joining-lines_5120x2880.jpg"); }
 
 .login {
