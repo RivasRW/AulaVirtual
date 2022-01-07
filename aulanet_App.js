@@ -10,7 +10,7 @@ let sessionOptions = session({
     secret: "another day on the paradise",
     store: new PgSession({
         pool: pooldata,
-        tablename: 'sessions'
+        tablename: 'session'
     }),
     resave: false,
     saveUninitialized: false,

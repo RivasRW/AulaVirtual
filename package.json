@@ -11,6 +11,7 @@
   "author": "Willber Rivas Rodriguez ",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
     "connect-pg-simple": "^7.0.0",
     "dotenv": "^10.0.0",
@@ -18,7 +19,10 @@
     "express": "^4.17.2",
     "express-session": "^1.17.2",
     "node-sass": "^7.0.0",
-    "pg": "^8.7.1"
+    "nodejs-nodemailer-outlook": "^1.2.4",
+    "os": "^0.1.2",
+    "pg": "^8.7.1",
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

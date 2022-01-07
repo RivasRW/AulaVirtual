@@ -5,7 +5,7 @@ const userController = require('./controllers/usersController')
 
 router.get('/', userController.login)
 
-router.post('/home', userController.home)
+router.post('/', userController.login)
 
 
 

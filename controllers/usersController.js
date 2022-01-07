@@ -1,9 +1,10 @@
-const res = require("express/lib/response")
-
+const User = require('../models/users') 
 exports.login = function(req,res){
-    res.render('login')
-}
-
-exports.home = function(req,res){
+    let user = new User(req.body)
+    user.login().then(function(result){
+        console.log(result)
+    }).catch(function(err){
+        console.log(err)
+    })
     res.render('login')
 }

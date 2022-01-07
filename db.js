@@ -1,7 +1,7 @@
 // Importando variables de ambiente
 const dotenv = require('dotenv')
 dotenv.config()
-const dbu = process.env.DBUSER
+const dbu = process.env.PGUSER
 const h = process.env.HOST
 const db = process.env.DATABASE
 const pa = process.env.PASSWORD
@@ -18,9 +18,10 @@ const pool = new Pool({
 })
 
 // Exportando cliente conectado para ser usado por otros archivos
-pool.connect(function(err, client, done){
+pool.connect( function(err, client, done){
     module.exports.client = client
-    module.exports.pool = pool
     const app = require('./aulanet_App')
     app.listen(8080, function(){console.log('aulanet_App listen on port: 8080!')})
 })
+
+module.exports.pool = pool
