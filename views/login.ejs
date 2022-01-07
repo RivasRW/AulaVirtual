@@ -12,14 +12,25 @@
         <link rel="stylesheet" href="/main.css">
     </head>
     <body>
+  
 
         <div class="logo col-lg">
             <img src="/imagotipo.png" alt="logo de aulanet" class="logo--img d-none d-lg-block">
         </div>
 
         <div class="login">
-            <form class="login--form" action="/home">
-
+            <form class="login--form" action="/" method="POST">
+                <div>
+                    <h4><strong>Inicio de sesión AulaNet</strong></h4>
+                </div>
+                <div class="login--form--firstrow">
+                    <input type="text" autofocus autocomplete="off" name="user" placeholder="usuario">
+                    <input type="text" autofocus autocomplete="off" name="user" placeholder="clave">
+                </div>
+                <div class="login--form--secondrow">
+                    <button type="submit"></button>
+                    <a href="#" class="btn btn-primary">Registrarse</a>
+                </div>
             </form>
         </div>
         

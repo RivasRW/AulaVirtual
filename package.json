@@ -20,11 +20,18 @@
     "express-session": "^1.17.2",
     "node-sass": "^7.0.0",
     "nodejs-nodemailer-outlook": "^1.2.4",
+<<<<<<< HEAD
     "os": "^0.1.2",
     "pg": "^8.7.1",
     "validator": "^13.7.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
+=======
+    "nodemon": "^2.0.15",
+    "os": "^0.1.2",
+    "pg": "^8.7.1",
+    "validator": "^13.7.0"
+>>>>>>> e95aa6e6a52e8d0449b71554854582f184cefd39
   }
 }

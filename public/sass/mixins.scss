@@ -4,6 +4,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 @mixin flex-row {

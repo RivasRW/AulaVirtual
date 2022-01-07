@@ -3,8 +3,12 @@ const { networkInterfaces } = require('os');
 const nets = networkInterfaces();
 
 // Importación de la conexión a la base de datos
+<<<<<<< HEAD
 const userConnection = require('../db').pool
 //console.log(userConnection)
+=======
+const userConnection = require('../db').client
+>>>>>>> e95aa6e6a52e8d0449b71554854582f184cefd39
 
 // Importación del mailer
 const loginEmail = require('../mailer')
@@ -50,13 +54,20 @@ User.prototype.login = function(){
             let text = 'SELECT * FROM tbl_usuarios'
             userConnection.query(text, (err, res)=>{
                 let emails = []
+<<<<<<< HEAD
                 //console.log(res.rows)
+=======
+>>>>>>> e95aa6e6a52e8d0449b71554854582f184cefd39
                 res.rows.map(function(obj){
                     emails.push(obj.correo)
                 })
                 let einfo = {
                     rec: this.info.email,
+<<<<<<< HEAD
                     sub: "Inicio de sesión AULANET"
+=======
+                    sub: "Inicio de sesion seguro AULANET"
+>>>>>>> e95aa6e6a52e8d0449b71554854582f184cefd39
                 }
                 if(emails.includes(this.info.email)) {
                      let usdata = {}
@@ -65,6 +76,7 @@ User.prototype.login = function(){
                             usdata = obj
                         }
                     })
+<<<<<<< HEAD
                     if(this.info.password == usdata.password){
                         this.info = usdata
                         resolve('V')
@@ -73,6 +85,15 @@ User.prototype.login = function(){
                         // }).catch(function(){
                         //     reject(err)
                         // })
+=======
+                    if(bcrypt.compareSync(this.info.password, usdata.password)){
+                        this.info = usdata
+                        loginEmail.mailTo(einfo, template()).then(function(){
+                            resolve('V')
+                        }).catch(function(){
+                            reject(err)
+                        })
+>>>>>>> e95aa6e6a52e8d0449b71554854582f184cefd39
                     } else {
                         reject('Contraseña incorrecta')
                     }
@@ -88,8 +109,13 @@ User.prototype.login = function(){
 
 }
 
+<<<<<<< HEAD
  let datetime = new Date();
  let ip = {}
+=======
+let datetime = new Date();
+let ip = {}
+>>>>>>> e95aa6e6a52e8d0449b71554854582f184cefd39
 
 for (const name of Object.keys(nets)) {
     for (const net of nets[name]) {
