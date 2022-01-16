@@ -52,7 +52,7 @@ export default function TodoPage({ params }) {
           </div>
 
           <div className="mt-5">
-            <p>Comentariso públicos:</p>
+            <p>Comentarios públicos:</p>
 
             <div className="comments-box">
               <div className="comment">

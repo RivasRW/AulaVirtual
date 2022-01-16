@@ -16,6 +16,10 @@
   border-bottom-left-radius: 12px;
 }
 
+.login-box {
+  max-width: 720px;
+}
+
 .form-login {
   background: #fff;
   border-top-right-radius: 12px;

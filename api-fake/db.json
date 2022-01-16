@@ -6,7 +6,7 @@
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
       "description": "Si sólo hablas un idioma, te limitas en tus relaciones sociales a otras personas que hablan el mismo. Pero cada idioma que aprendas te abre un nuevo mundo de amistades (y amores) que no tendrías de otra forma. - Anonimo",
-      "bannerImg": "https://media.istockphoto.com/vectors/internet-banner-about-learning-english-language-blue-outline-icons-vector-id1195746261",
+      "bannerImg": "/img/banners/english.jpg",
       "todos": [
         {"id": 1, "status": "succes", "title": "Verbos infinitivos", "value": "10%", "description": "Actividad investigativa respecto a los verbos en infinitivo en inglés"},
         {"id": 2, "status": "doing", "title": "Pronombres personales", "value": "30%", "description": "Actividad investigativa respecto a los verbos en infinitivo en inglés"},
@@ -20,7 +20,7 @@
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
       "description": "",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "bannerImg": "/img/banners/default.jpg",
       "todos": [
         {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
         {"status": "doing", "title": "Pronombres personales", "value": "30%"},
@@ -34,7 +34,7 @@
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
       "description": "",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "bannerImg": "/img/banners/default.jpg",
       "todos": [
         {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
         {"status": "doing", "title": "Pronombres personales", "value": "30%"},
@@ -48,7 +48,7 @@
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
       "description": "",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "bannerImg": "/img/banners/default.jpg",
       "todos": [
         {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
         {"status": "doing", "title": "Pronombres personales", "value": "30%"},
@@ -62,7 +62,7 @@
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
       "description": "",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "bannerImg": "/img/banners/default.jpg",
       "todos": [
         {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
         {"status": "doing", "title": "Pronombres personales", "value": "30%"},
@@ -76,7 +76,7 @@
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
       "description": "",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "bannerImg": "/img/banners/default.jpg",
       "todos": [
         {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
         {"status": "doing", "title": "Pronombres personales", "value": "30%"},
@@ -90,7 +90,7 @@
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
       "description": "",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "bannerImg": "/img/banners/default.jpg",
       "todos": [
         {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
         {"status": "doing", "title": "Pronombres personales", "value": "30%"},
@@ -104,7 +104,7 @@
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
       "description": "",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "bannerImg": "/img/banners/default.jpg",
       "todos": [
         {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
         {"status": "doing", "title": "Pronombres personales", "value": "30%"},
@@ -119,7 +119,7 @@
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
       "description": "",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "bannerImg": "/img/banners/default.jpg",
       "todos": [
         {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
         {"status": "doing", "title": "Pronombres personales", "value": "30%"},
@@ -133,7 +133,7 @@
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
       "description": "",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "bannerImg": "/img/banners/default.jpg",
       "todos": [
         {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
         {"status": "doing", "title": "Pronombres personales", "value": "30%"},
@@ -147,7 +147,7 @@
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
       "description": "",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "bannerImg": "/img/banners/default.jpg",
       "todos": [
         {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
         {"status": "doing", "title": "Pronombres personales", "value": "30%"},
@@ -161,7 +161,7 @@
       "teacherName": "hgdhggkjfdfgdjhgjhf",
       "teacherImg": "/img/avatar.jpg",
       "description": "",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "bannerImg": "/img/banners/default.jpg",
       "todos": [
         {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
         {"status": "doing", "title": "Pronombres personales", "value": "30%"},
