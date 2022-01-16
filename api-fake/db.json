@@ -5,87 +5,169 @@
       "title": "Inglés I",
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+      "description": "Si sólo hablas un idioma, te limitas en tus relaciones sociales a otras personas que hablan el mismo. Pero cada idioma que aprendas te abre un nuevo mundo de amistades (y amores) que no tendrías de otra forma. - Anonimo",
+      "bannerImg": "https://media.istockphoto.com/vectors/internet-banner-about-learning-english-language-blue-outline-icons-vector-id1195746261",
+      "todos": [
+        {"id": 1, "status": "succes", "title": "Verbos infinitivos", "value": "10%", "description": "Actividad investigativa respecto a los verbos en infinitivo en inglés"},
+        {"id": 2, "status": "doing", "title": "Pronombres personales", "value": "30%", "description": "Actividad investigativa respecto a los verbos en infinitivo en inglés"},
+        {"id": 3, "status": "void", "title": "Dialogos", "value": "10%", "description": "Actividad investigativa respecto a los verbos en infinitivo en inglés"},
+        {"id": 1, "status": "void", "title": "Saludos básicos", "value": "50%", "description": "Actividad investigativa respecto a los verbos en infinitivo en inglés"}
+      ]
     },
     {
       "id": 2,
       "title": "Matemáticas I",
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+      "description": "",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "todos": [
+        {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
+        {"status": "doing", "title": "Pronombres personales", "value": "30%"},
+        {"status": "void", "title": "Dialogos", "value": "10%"},
+        {"status": "void", "title": "Saludos básicos", "value": "50%"}
+      ]
     },
     {
       "id": 3,
       "title": "Física I",
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+      "description": "",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "todos": [
+        {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
+        {"status": "doing", "title": "Pronombres personales", "value": "30%"},
+        {"status": "void", "title": "Dialogos", "value": "10%"},
+        {"status": "void", "title": "Saludos básicos", "value": "50%"}
+      ]
     },
     {
       "id": 4,
       "title": "Metodología de la investigación",
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+      "description": "",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "todos": [
+        {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
+        {"status": "doing", "title": "Pronombres personales", "value": "30%"},
+        {"status": "void", "title": "Dialogos", "value": "10%"},
+        {"status": "void", "title": "Saludos básicos", "value": "50%"}
+      ]
     },
     {
       "id": 5,
       "title": "Metodología de la investigación",
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+      "description": "",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "todos": [
+        {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
+        {"status": "doing", "title": "Pronombres personales", "value": "30%"},
+        {"status": "void", "title": "Dialogos", "value": "10%"},
+        {"status": "void", "title": "Saludos básicos", "value": "50%"}
+      ]
     },
     {
       "id": 6,
       "title": "Metodología de la investigación",
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+      "description": "",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "todos": [
+        {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
+        {"status": "doing", "title": "Pronombres personales", "value": "30%"},
+        {"status": "void", "title": "Dialogos", "value": "10%"},
+        {"status": "void", "title": "Saludos básicos", "value": "50%"}
+      ]
     },
     {
       "id": 7,
       "title": "Metodología de la investigación",
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+      "description": "",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "todos": [
+        {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
+        {"status": "doing", "title": "Pronombres personales", "value": "30%"},
+        {"status": "void", "title": "Dialogos", "value": "10%"},
+        {"status": "void", "title": "Saludos básicos", "value": "50%"}
+      ]
     },
     {
       "id": 8,
       "title": "Metodología de la investigación",
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
+      "description": "",
       "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
       "todos": [
-        {}
+        {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
+        {"status": "doing", "title": "Pronombres personales", "value": "30%"},
+        {"status": "void", "title": "Dialogos", "value": "10%"},
+        {"status": "void", "title": "Saludos básicos", "value": "50%"}
       ]
+      
     },
     {
       "id": 9,
       "title": "Metodología de la investigación",
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+      "description": "",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "todos": [
+        {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
+        {"status": "doing", "title": "Pronombres personales", "value": "30%"},
+        {"status": "void", "title": "Dialogos", "value": "10%"},
+        {"status": "void", "title": "Saludos básicos", "value": "50%"}
+      ]
     },
     {
       "id": 10,
       "title": "Metodología de la investigación",
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+      "description": "",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "todos": [
+        {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
+        {"status": "doing", "title": "Pronombres personales", "value": "30%"},
+        {"status": "void", "title": "Dialogos", "value": "10%"},
+        {"status": "void", "title": "Saludos básicos", "value": "50%"}
+      ]
     },
     {
       "id": 11,
       "title": "Metodología de la investigación",
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+      "description": "",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "todos": [
+        {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
+        {"status": "doing", "title": "Pronombres personales", "value": "30%"},
+        {"status": "void", "title": "Dialogos", "value": "10%"},
+        {"status": "void", "title": "Saludos básicos", "value": "50%"}
+      ]
     },
     {
       "id": 12,
       "title": "Inglés III",
       "teacherName": "hgdhggkjfdfgdjhgjhf",
       "teacherImg": "/img/avatar.jpg",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+      "description": "",
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "todos": [
+        {"status": "succes", "title": "Verbos infinitivos", "value": "10%"},
+        {"status": "doing", "title": "Pronombres personales", "value": "30%"},
+        {"status": "void", "title": "Dialogos", "value": "10%"},
+        {"status": "void", "title": "Saludos básicos", "value": "50%"}
+      ]
     }
   ],
   "users": [

@@ -1,0 +1,15 @@
+header {
+  position: relative;
+}
+
+.logout {
+  position: absolute;
+  background: #fff;
+  padding: 10px 20px;
+  width: 150px;
+  right: 10px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  bottom: -30px;
+  cursor: pointer;
+}

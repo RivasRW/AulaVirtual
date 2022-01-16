@@ -1,7 +1,16 @@
-import { useEffect } from "react";
+import "./Layout.css";
+import { useEffect, useState } from "react";
 import { Link } from "wouter";
+import { useLocation } from "wouter";
 
 export default function Layout({ children }: any) {
+  const [location, setLocation] = useLocation();
+  const [tooltip, setTooltip] = useState(false);
+
+  const handleTooltip = () => {
+    setTooltip(!tooltip);
+  };
+
   useEffect(() => {
     const contenedor: any = document.querySelector("#contenedor");
     const botonMenu: any = document.querySelector("#boton-menu");
@@ -25,6 +34,12 @@ export default function Layout({ children }: any) {
     });
   }, []);
 
+  const logout = () => {
+    window.localStorage.setItem("login", "false");
+    setTooltip(false);
+    setLocation("/login");
+  };
+
   return (
     <div className="contenedor active" id="contenedor">
       <header className="header">
@@ -45,17 +60,23 @@ export default function Layout({ children }: any) {
           </button>
         </div>
         <div className="botones-header">
-         
-         
           <button>
             <i className="fas fa-bell" />
           </button>
-          <a href="#" className="avatar">
+          <a className="avatar" onClick={handleTooltip}>
             <img src="img/avatar.jpg" alt="" />
           </a>
+
+          {tooltip ? (
+            <div className="logout" onClick={logout}>
+              <span>Cerrar sesión</span>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
       </header>
-      
+
       <nav className="menu-lateral">
         <Link href="/">
           <a className="active">

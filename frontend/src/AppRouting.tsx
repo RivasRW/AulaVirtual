@@ -8,6 +8,7 @@ import Login from "./pages/login/Login";
 import PageNotFound from "./pages/page-not-found/PageNotFound";
 import SingleClass from "./pages/single-class/SingleClass";
 import Slopes from "./pages/slopes/Slopes";
+import TodoPage from "./pages/todo-page/TodoPage";
 
 const AppRouting = () => {
   return (
@@ -22,6 +23,7 @@ const AppRouting = () => {
           <Route path="/horario" component={Horary} />
           <Route path="/pendientes" component={Slopes} />
           <Route path="/materia/:id" component={SingleClass} />
+          <Route path="/todo/:id" component={TodoPage} />
           <Route component={PageNotFound} />
         </Switch>
       </Layout>
