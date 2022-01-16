@@ -54,7 +54,10 @@
       "title": "Metodología de la investigación",
       "teacherName": "Johan Castillo",
       "teacherImg": "/img/avatar.jpg",
-      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+      "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc=",
+      "todos": [
+        {}
+      ]
     },
     {
       "id": 9,
@@ -83,6 +86,60 @@
       "teacherName": "hgdhggkjfdfgdjhgjhf",
       "teacherImg": "/img/avatar.jpg",
       "bannerImg": "https://media.istockphoto.com/vectors/school-or-university-classroom-vector-cartoon-vector-id1165541200?k=20&m=1165541200&s=612x612&w=0&h=r3VaM-GH-mhtOrZaXJLERyM8JSZDbpTWGlaEm5r5xqc="
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Admin",
+      "lastname": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "avatar": "admin.png",
+      "subjects": "none"
+    },
+    {
+      "id": 2,
+      "firstname": "Elysaira",
+      "lastname": "Guzman",
+      "email": "admin@gmail.com",
+      "password": "teacher123",
+      "role": "techer",
+      "avatar": "teacher.png",
+      "subjects": "Metodología de la Investigación"
+    },
+    {
+      "id": 3,
+      "firstname": "Johan",
+      "lastname": "Garcia",
+      "email": "jcjohan@gmail.com",
+      "password": "jc123456",
+      "role": "Student",
+      "avatar": "user1.png",
+      "subjects": "Mercadeo y ventas",
+      "subjects_id": 2
+    },
+    {
+      "id": 4,
+      "firstname": "Willber",
+      "lastname": "Rivas",
+      "email": "willber@gmail.com",
+      "password": "123",
+      "role": "student",
+      "avatar": "admin.png",
+      "subjects": "Ingeniería en Sistemas",
+      "subjects_id": 1
+    }
+  ],
+  "subjetcs": [
+    {
+      "id": 1,
+      "title": "Ingeniería en Sistemas"
+    },
+    {
+      "id": 2,
+      "title": "Mercadeo y ventas"
     }
   ]
 }

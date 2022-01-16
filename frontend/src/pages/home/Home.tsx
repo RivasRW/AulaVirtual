@@ -7,14 +7,19 @@ export default function Home() {
   const [lessons, setLessons]: any = useState(false);
 
   useEffect(() => {
-    axios
-      .get("http://10.10.20.15:8080/materias")
-      .then((response) => {
-        let data = response.data;
-        console.log(data);
-        setLessons(data);
-      })
-      .catch((error) => console.log(error));
+    if (window.localStorage.getItem("login") === null) {
+      console.log("No esta logueado");
+      window.location.href = "/login";
+    } else {
+      axios
+        .get("http://localhost:8080/materias")
+        .then((response) => {
+          let data = response.data;
+          console.log(data);
+          setLessons(data);
+        })
+        .catch((error) => console.log(error));
+    }
   }, []);
 
   return (
