@@ -1,0 +1,55 @@
+.bannerImg {
+  height: 218px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px dashed #64b2b9;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.todo:hover {
+  background: #64b2b9 !important;
+}
+
+.status-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.status-box span {
+  margin-right: 10px;
+}
+
+.status {
+  width: 30px;
+  height: 30px;
+  background: red;
+  border-radius: 50%;
+}
+
+.status.succes {
+  background: green;
+}
+
+.status.doing {
+  background: orange;
+}
+
+.note-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.note-box span {
+  margin-right: 10px;
+}

@@ -1,3 +1,4 @@
+import { useLocation } from "wouter";
 import CardClass from "../../components/card-class/CardClass";
 import "./Home.css";
 import { useEffect, useState } from "react";
@@ -5,11 +6,15 @@ import axios from "axios";
 
 export default function Home() {
   const [lessons, setLessons]: any = useState(false);
+  const [location, setLocation] = useLocation();
 
   useEffect(() => {
-    if (window.localStorage.getItem("login") === null) {
+    if (
+      window.localStorage.getItem("login") === null ||
+      window.localStorage.getItem("login") === "false"
+    ) {
       console.log("No esta logueado");
-      window.location.href = "/login";
+      setLocation("/login");
     } else {
       axios
         .get("http://localhost:8080/materias")
